@@ -1,4 +1,4 @@
-FROM elixir:1.11.4 AS builder
+FROM elixir:1.12.0 AS builder
 
 RUN curl -sL https://deb.nodesource.com/setup_14.x | bash - && \
     apt-get update && apt-get install -y --no-install-recommends nodejs
